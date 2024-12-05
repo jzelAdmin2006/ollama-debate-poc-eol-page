@@ -7,13 +7,22 @@ body {
   color: #d3cfc9;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #1d1f20;
+  z-index: 1000;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   font-family: "Arial Nova", Arial, sans-serif;
   text-align: center;
+  padding-top: 70px;
 }
 
 img {
